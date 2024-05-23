@@ -164,7 +164,7 @@ void testList(T* (*generator)(int)) {
     while (1) {
         int command;
 
-        cout << "Enter 0 to print elements, 1 to add element, 2 to remove element, 3 to search element, 4 to find element by index" << endl;
+        cout << "Enter command: 0 - to print elements, 1 - to add element, 2 - to remove element, 3 - to search element, 4 - to find element by index" << endl;
         cin >> command;
 
         switch (command)
