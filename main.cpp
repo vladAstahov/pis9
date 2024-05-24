@@ -2,7 +2,7 @@
 #include <vector>
  
 using namespace std;
- 
+// test com
 template <typename T>
 struct Node {
   T val;
